@@ -1,0 +1,21 @@
+﻿body {
+    padding-bottom: 20px;
+}
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav{
+    margin-bottom: 2rem;
+}
+.navbar-brand {
+    margin-left: 10rem;
+}
+#logo {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+#logo h1{
+    font-size: 3.5rem;
+}
+

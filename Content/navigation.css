@@ -1,0 +1,32 @@
+.navigation-bar{
+    margin-bottom: 50px;
+}
+
+ul.navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navigation li{
+    display: inline;
+    float: right;
+}
+ul.navigation li a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    color: black;
+    width: 80px;
+    height: 40px;
+    padding-top: 10px;
+}
+ul.navigation li a:hover{
+    color: #82D173;
+}
+
+ul.navigation li.logo{
+    float: left;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem;
+}
