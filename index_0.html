@@ -1,17 +1,21 @@
 <!DOCTYPE html>
+
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G3rappa - junior developer</title>
-    <link href="F:/Projekty/g3rappa_AZ/Content/bootstrap/bootstrap.min.css" rel="stylesheet" />
-    <link href="F:/Projekty/g3rappa_AZ/Content/global.css" rel="stylesheet" />
-    <link href="F:/Projekty/g3rappa_AZ/Content/navigation.css" rel="stylesheet" />    
-    <link href="https://fonts.googleapis.com/css?family=Pacifico|Khand:400,600" rel="stylesheet">
+    <link href="F:/Projekty/g3rappa/Content/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="F:/Projekty/g3rappa/Content/global.css" rel="stylesheet" />
+    <link href="F:/Projekty/g3rappa/Content/about.css" rel="stylesheet" />    
+    <link href="F:/Projekty/g3rappa/Content/navigation.css" rel="stylesheet" />    
+    <link href="F:/Projekty/g3rappa/Content/portfolio.css" rel="stylesheet" />        
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Khand:400,500,600" rel="stylesheet">
 </head>
 <body>
-    <div class="navigation-bar col-lg-12">
-        <ul class="navigation">
+
+    <div class="navigation col-lg-12">
+        <ul class="navigation-list">
             <li class="logo">Gerappa</li>
             <li><a href="#">CONTANT</a></li>
             <li><a href="#">SKILLS</a></li>
@@ -22,15 +26,120 @@
 
 
 
-    <div class="container body-content col-lg-12">
+    <div class="body-content">
+        <div id="hello-me">
+            <h5>Hello, I am</h5>
+            <h1 class="logo">Gerappa</h1>
+            <h4 class="logo">-junior developer</h4>
+        </div>
 
-        <footer>
-            <p>G3rappa - junior developer</p>
-        </footer>
+        <div class="about about-left">
+
+                <h3>FEW <strong>WORDS</strong> ABOUT ME</h3>
+                <hr>
+         
+            <p>My true name is Krzysztof and I come from Poland. I work in bank ING Bank like a junior developer. I have only one year expirience but I am full of abitious. In my job I am Full Stack developer. I work with backend with c# and SQL Server, on the second hand in frontend I have to code in HTML, CSS and JS. Without coding I love spend time on nature. </p>
+            </div>
+        <div class="about about-right">
+
+                <h2>MY EXPIRIENCE</h2>
+
+            <p>My true name is Krzysztof and I come from Poland. I work in bank ING Bank like a junior developer. I have only one year expirience but I am full of abitious. In my job I am Full Stack developer. I work with backend with c# and SQL Server, on the second hand in frontend I have to code in HTML, CSS and JS. Without coding I love spend time on nature. </p>
+        </div>
+
+        <div class="about-more">
+            <nav>
+                <div class="nav" id="nav-tab" role="tablist">
+                  <a class="about-more-item active" id="nav-expiriance-tab" data-toggle="tab" href="#nav-expiriance" role="tab" aria-controls="nav-expiriance" aria-selected="true">EXPIRIENCE</a>
+                  <a class="about-more-item" id="nav-education-tab" data-toggle="tab" href="#nav-education" role="tab" aria-controls="nav-education" aria-selected="false">EDUCATION</a>
+                </div>
+              </nav>
+              <div class="tab-content about-more-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-expiriance" role="tabpanel" aria-labelledby="nav-expiriance-tab">
+                    <h3 class="job-title">Pracownik fizyczny | „IOS” sp. z o.o.</h3>
+                    <p class="job-date">2011.06 – 2013.11</p>
+                    <h5 class="job-description">Utrzymywanie porządku na terenie elektrowni Łagisza</h5>
+                    <hr/>
+                    <h3 class="job-title">Copywriter | PR Management – agencja reklamowa</h3>
+                    <p class="job-date">2013.07-2013.08</p>
+                    <h5 class="job-description"> Praktyka zawodowa. Pozycjonowanie stron internetowych oraz social media.</h5>
+                        
+                        
+                       
+                        <!-- Konsultant | SINE QUA NON TS Centrum Telemarketingu Sp. z o.o.
+                        2013.12-2014.04
+                        Telefoniczna sprzedaż produktów Orange. Osiąganie wyznaczonych targetów sprzedażowych. Szkolenia z zakresu obsługi klienta.
+                        Przedstawiciel handlowy | Target BPO Polska
+                        2014.05-2017.07
+                        Sprzedaż produktów Unilever w sklepach detalicznych. Bezpośredni kontakt z klientem. Praca w terenie. Samodzielna organizacja pracy. Osiąganie wyznaczonych targetów sprzedażowych.
+                        Mystery Shoper |Nielsen Polska Sp. z o.o.
+                        2014.07-2014.08
+                        Badania jakości obsługi klienta w salonach VolksWagen. Udział w badaniach jakości różnych produktów. Badania w terenie.
+                        Młodszy programista | ING Bank Śląski S.A.
+                        2017.08-obecnie
+                        Automatyzacja procesów bankowych. Projektowanie aplikacji webowych. Wdrażanie nowych rozwiązań. Promowanie działań banku. -->
+                        </p>
+                    </div>
+                <div class="tab-pane fade" id="nav-education" role="tabpanel" aria-labelledby="nav-education-tab">
+                    <p>Licencjat | Uniwersytet Śląski w Katowicach
+                            2011-2014
+                            Socjologia, specjalność Reklama i Komunikacja Społeczna na Wydziale Nauk Społecznych
+                            Inżynier | Wyższa Szkoła Biznesu w Dąbrowie Górniczej
+                            2014-2018
+                            Informatyka, specjalność Aplikacje Mobilne
+                            </p>
+                </div>
+              </div>
+        </div>
+
+        <div id="portfolio">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="F:/Projekty/g3rappa/Content/img/bg/bg_0.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First project</h5>
+                        <p>Project about bla bla. Bla bla is incredible project. Bla bla for bla bla.</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="F:/Projekty/g3rappa/Content/img/bg/bg_4_.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second project</h5>
+                        <p>Project about bla bla. Bla bla is incredible project. Bla bla for bla bla.</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="F:/Projekty/g3rappa/Content/img/bg/bg_5_.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third project</h5>
+                        <p>Project about bla bla. Bla bla is incredible project. Bla bla for bla bla.</p>
+                      </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+        
     </div>
+    <footer>
+        <p>G3rappa - junior developer</p>
+    </footer>
 
-    <script src="F:/Projekty/g3rappa_AZ/Scripts/jquery/jquery-3.0.0.min.js"></script>
-    <script src="F:/Projekty/g3rappa_AZ/Scripts/bootsrap/bootstrap.bundle.min.js"></script>
+    <script src="F:/Projekty/g3rappa/Scripts/jquery/jquery-3.0.0.min.js"></script>
+    <script src="F:/Projekty/g3rappa/Scripts/bootsrap/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

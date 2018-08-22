@@ -1,0 +1,8 @@
+#portfolio{
+    float: left;
+    margin-top: 20px;
+}
+
+#portfolio img{
+    border-radius: 8px;
+}

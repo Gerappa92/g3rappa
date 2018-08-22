@@ -9,6 +9,9 @@ body{
     background-color: unset;
     margin: 60px 300px 0 300px;
     font-family: 'Khand';
-    font-weight: 600;
+    font-weight: 400;
 }
-
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+}

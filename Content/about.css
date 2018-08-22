@@ -1,0 +1,75 @@
+﻿
+#hello-me{
+    height: 260px;
+    margin-top: 60px;
+    padding: 60px;
+    background-color: rgb(52,168,83, 0.65);
+    color: white;
+    text-align: center;
+    border-radius: 8px;   
+}
+.about{
+    margin-top: 20px;
+    height: 320px;    
+    float: left;
+    color: white;
+    font-weight: 400;
+    padding: 30px;
+}
+.about-left{
+    width: 45%;
+    border-radius: 8px 0 0 8px; 
+    background-color: rgb(52,168,83, 0.65);
+}
+.about-right{
+    width: 55%;
+    border-radius: 0 8px 8px 0; 
+    background-color:#42253B;
+}
+.about h3{
+    text-align: center;
+}
+.about h2{
+    color: #ABFAA9;
+    font-weight: 500;
+    margin: 0 0 1rem 2rem;
+}
+.about hr{
+        margin-top: 0;
+    border-top: 1px solid;
+    width: 60%;
+}
+.about-more{
+    float: left;
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+}
+.about-more-content{
+    height: 460px;
+    background-color:  rgb(66,37,59, 0.65);
+    border-radius: 0 0 8px 8px; 
+    color: white;
+}
+.about-more-item{
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    color: black;
+    width: 50%;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 8px 8px 0 0;
+}
+.about-more-item:hover{
+    text-decoration: none;
+    color: #82D173;
+}
+.about-more-item.active{
+    background-color:#42253B !important;
+    color: white !important;
+}
+
+
