@@ -1,0 +1,40 @@
+footer{
+    float: left;
+    margin-top: 60px;
+    width: 100%;
+    height: 200px;
+    background-color: #42253B;
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
+
+footer .center{
+    display: inline-block;
+    height: 150px;
+}
+footer img{
+    fill: white;
+}
+
+footer h3:hover{
+    cursor: pointer;
+    color: rgb(52,168,83);
+}
+.social{
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+.social a{
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+.social a:hover{
+    color: rgb(52,168,83);    
+}
+footer hr{
+    border: 0; 
+    border-bottom: 2px dashed  rgb(52,168,83);   
+    background: white; 
+}
